@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!-- Bundles list for Stanbolino -->
+<bundles>
+    <startLevel level="1">
+        <bundle>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.4</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.commons.log</artifactId>
+            <version>3.0.0</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.commons.logservice</artifactId>
+            <version>1.0.0</version>
+        </bundle>
+        <bundle>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.6.4</version>
+        </bundle>
+        <bundle>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+            <version>1.6.4</version>
+        </bundle>
+    </startLevel>
+    
+    <startLevel level="5">
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.webconsole</artifactId>
+            <version>3.1.6</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.webconsole.plugins.memoryusage</artifactId>
+            <version>1.0.2</version>
+        </bundle>
+    </startLevel>
+
+    <startLevel level="10">
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.http.whiteboard</artifactId>
+            <version>2.2.0</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.http.jetty</artifactId>
+            <version>2.2.0</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr</artifactId>
+            <version>1.6.0</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.configadmin</artifactId>
+            <version>1.2.8</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.metatype</artifactId>
+            <version>1.0.4</version>
+        </bundle>
+    </startLevel>
+    
+    <startLevel level="15">
+        <bundle>
+            <groupId>org.apache.stanbol</groupId>
+            <artifactId>org.apache.stanbol.stanbolino.core</artifactId>
+            <version>0.1.0-incubating-SNAPSHOT</version>
+        </bundle>
+    </startLevel>        
+</bundles>
